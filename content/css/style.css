@@ -1,0 +1,157 @@
+body{
+    font-family: 'Manrope', sans-serif;
+}
+
+.section{
+    max-width: 1440px;
+    margin: 40px 59px;
+}
+
+.section__header-title{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    margin-bottom: 32px;
+}
+
+.news__img{
+    border-radius: 8px;
+}
+
+.news__text{
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+.common-text{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.owl-nav{
+    position: absolute;
+    right: 0;
+    top: -60px;
+}
+
+.owl-prev{
+    background: url(../images/Subtract.svg) !important; 
+    height: 24px;
+    width: 24px;
+    opacity: 0.4;
+    transition: ease .4s;
+}
+
+.owl-next{
+    background: url(../images/Subtract.svg) !important; 
+    transform: rotate(180deg);
+    height: 24px;
+    width: 24px;
+    margin-left: 8px;
+    opacity: 0.4;
+    transition: ease .4s;
+}
+
+.owl-prev:hover {
+    opacity: 1;
+    transform: ease;
+
+}
+
+.owl-next:hover {
+    opacity: 1;
+    transform: ease;
+
+}
+
+.news__button{
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+
+.body__content{
+    display: flex;
+}
+
+.body__content-img{
+    min-width: 50%;
+    max-height: 212px;
+    margin-right: 12px;
+}
+
+.body__content-text{
+    max-width: 50%;
+    margin-left: 12px;
+}
+
+.body__content-link{
+    display: flex;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 16px;
+
+}
+
+.body__content-link:hover{
+    text-decoration: none;
+}
+
+
+@media(max-width: 768px){
+    .section{
+        margin-left: 36px;
+        margin-right: 36px;
+    }
+
+    .section__header-title{
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .body__content-img{
+        max-height: 168px;
+    }
+
+    .common-text{
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .body__content-link{
+        font-size: 16px;
+        line-height: 22px;
+    
+    }
+}
+
+
+@media(max-width: 320px){
+    .section{
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .body__content{
+        display: block;
+    }
+    
+
+    .body__content-img{
+        min-width: 100%;
+        min-height: 148px;
+    }
+
+    .body__content-text{
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    .owl-nav{
+        position: unset;
+        text-align: center;
+        height: 24px;
+    }
+}
