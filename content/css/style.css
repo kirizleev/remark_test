@@ -4,7 +4,7 @@ body{
 
 .section{
     max-width: 1440px;
-    margin: 40px 59px;
+    margin: 40px auto;
 }
 
 .section__header-title{
